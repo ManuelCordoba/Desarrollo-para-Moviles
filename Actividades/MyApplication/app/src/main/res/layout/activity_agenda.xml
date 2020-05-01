@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Agenda"
+
+    android:background="#2E2E2E">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="40dp"
+        android:text="Agenda de Reserva"
+        android:textColor="#FFF"
+        android:textSize="30dp"
+        android:layout_marginBottom="100dp"/>
+
+
+<LinearLayout
+    android:layout_width="320dp"
+    android:layout_gravity="center"
+    android:layout_height="150dp"
+    android:orientation="horizontal">
+    <ImageButton
+        android:id="@+id/btnFecha"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:background="@drawable/btn1"
+        android:src="@drawable/calendar"/>
+
+    <EditText
+        android:id="@+id/txtFecha"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:enabled="false"/>
+
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="320dp"
+    android:layout_gravity="center"
+    android:layout_height="150dp"
+    >
+    <ImageButton
+        android:id="@+id/btnHora"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:background="@drawable/btn1"
+        android:src="@drawable/reloj"/>
+
+    <EditText
+        android:id="@+id/txtHora"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:enabled="false"/>
+
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/btnRes"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn2"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:text="Reservar" />
+
+</LinearLayout>

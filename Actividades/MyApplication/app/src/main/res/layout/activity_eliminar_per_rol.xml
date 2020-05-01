@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"/>
+
+
+    <EditText
+        android:id="@+id/txt_per_rol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ID PERMISO ROL"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnRealizar"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Realizar" />
+</LinearLayout>

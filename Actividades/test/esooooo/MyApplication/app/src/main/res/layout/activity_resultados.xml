@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resultados"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_gravity="center"
+        android:layout_marginBottom="80dp"
+        android:text="Resultados"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:text="Pregunta1" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:enabled="false"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Respuesta"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:id="@+id/textView3"
+        android:textColor="#FFF"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pregunta2" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:enabled="false"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Respuesta"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:id="@+id/textView4"
+        android:textColor="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pregunta3"
+
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:id="@+id/textView5"
+        android:textColor="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pregunta4" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+
+        android:enabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="opcion" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:enabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="opcion" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:enabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="opcion" />
+
+
+</LinearLayout>

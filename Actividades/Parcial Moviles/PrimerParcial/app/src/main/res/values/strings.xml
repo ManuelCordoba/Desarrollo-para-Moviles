@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PrimerParcial</string>
+
+    <string name="button_atras">Atras</string>
+    <string name="button_siguiente">Informacion</string>
+    <string name="button_enviar">Enviar</string>
+    <string name="USB">USBBOG</string>
+    <string name="title_app">Primer Parcial</string>
+    <string name="name">Nombres y apellidos</string>
+    <string name="program">Programa</string>
+    <string name="full_name">Manuel Fernando Corodba Gonzalez</string>
+    <string name="program_name">Ing. de Sistemas</string>
+    <string name="title_activity_1">Hogar </string>
+    <string name="parent_names">Nombre padres</string>
+    <string name="parent_address">Dirección</string>
+    <string name="parent_location">Ciudad</string>
+    <string name="title_activity_2">Imágenes de Bogotá</string>
+    <string name="images_location">Bogotá</string>
+    <string name="images_place_1">Bogotá</string>
+    <string name="images_place_2">Bogotá</string>
+    <string name="title_activity_3">Agenda </string>
+    <string name="schedule_date">Fecha</string>
+    <string name="schedule_subject">Asunto</string>
+    <string name="schedule_activity">Actividad</string>
+</resources>
