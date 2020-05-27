@@ -1,0 +1,73 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:stretchColumns="1"
+    android:orientation="horizontal">
+
+
+<View
+    android:layout_height="2dip"
+    android:background="#FF909090" />
+<LinearLayout
+    android:background="#013C6E"
+    android:layout_marginBottom="20dp">
+    <TextView
+
+        android:id="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#FFF"
+        android:textSize="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rol" />
+</LinearLayout>
+
+<TableRow>
+
+
+    <ListView
+        android:id="@+id/LISTA"
+        android:layout_width="398dp"
+        android:layout_height="440dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:scrollbarSize="5dp">
+
+    </ListView>
+
+</TableRow>
+
+<LinearLayout
+    android:layout_width="100dp"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btnRegU"
+        android:layout_width="310dp"
+        android:layout_height="58dp"
+        android:layout_weight="1"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn1"
+        android:text="Agregar" />
+    <Button
+        android:id="@+id/btnEdU"
+        android:layout_width="310dp"
+        android:layout_height="58dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn1"
+        android:text="Editar" />
+    <Button
+        android:id="@+id/btnEliU"
+        android:layout_width="310dp"
+        android:layout_height="58dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn1"
+        android:text="Eliminar" />
+</LinearLayout>
+</TableLayout>
